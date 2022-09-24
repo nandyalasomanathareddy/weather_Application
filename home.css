@@ -1,0 +1,65 @@
+.siva{
+    background-color: darkcyan;
+    width: fit-content;
+   color: black;
+    margin: 50px;
+
+   
+}
+
+.image{
+    clip-path: circle();
+  margin-top: 60px;
+  margin-right: 100px;
+  
+
+ float: right;
+
+}
+.rana{
+    float: left;
+    background-color:papayawhip;
+    background-size: cover;
+    font-style: italic;
+    font-size: larger;
+}
+.header4{
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 20px;
+   margin-top: 30px;
+    
+}
+.header2{
+    text-align: left;
+   padding-top: 10px;
+    padding-left: 20px;
+    border-top: 1px solid violet;
+  
+    margin-right: 400px;
+    margin-left: 20px;
+}
+.para1{
+    padding-top: 10px;
+    padding-left: 20px;
+    border-bottom: 1px solid violet;
+    margin-right: 400px;
+    margin-left: 20px;
+    padding-bottom: 30px;
+    font-size: smaller;
+
+
+}
+.btn1{
+    border-radius: 30px;
+    border-color: rgb(12, 12, 12);
+    background-color: darkblue;
+    color: azure;
+   margin-left: 20px;
+   margin-bottom: 30px;
+}
+
+
+
+
+

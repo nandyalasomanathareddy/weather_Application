@@ -1,0 +1,74 @@
+.Temp{
+    background-image: url(https://images.pexels.com/photos/1122639/pexels-photo-1122639.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 400px; 
+    border-radius: 20px;
+}  
+
+
+.Suddi{
+  color:white;
+  display: flex;
+  grid-gap: 10px;
+}
+.Head{
+    padding-left: 30px;
+}
+.List{
+    display: flex;
+    grid-gap: 20px;
+    padding-left: 50px;
+    list-style: none;
+    grid-template-columns: repeat(9,1fr);
+}
+.List a:hover{
+    color: mediumaquamarine;
+
+}
+.Try{
+    padding-left: 300px;
+    padding-top: 15px;
+}
+.But{
+    border-radius: 20px;
+    background-color: rgb(151, 88, 24);
+    border-color: rgb(119, 68, 17);
+    color: azure;
+}
+.but:hover{
+    color: ghostwhite;
+}
+
+.Help{
+    text-align: center;
+    color:white;
+    padding-top: 150px;
+}
+.our h1{
+  border-bottom: 2px solid darkgreen;
+
+}
+.Our{
+    text-align: center;
+    
+    
+}
+.Horizantal{
+    margin-left: 580px;
+    margin-right: 580px;
+}
+.Digital{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.Design{
+    text-align: center;
+}
+.Unlimited{
+    text-align: center;
+}
+.Stratagy{
+    text-align: center;
+}
+

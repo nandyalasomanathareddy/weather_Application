@@ -1,0 +1,38 @@
+.sasi{
+    display: flex;
+}
+.foot{
+    display: flex;
+     grid-gap: 70px;
+     font-size:small;
+}
+.rrr{
+  padding: 10px;
+  color: azure;
+}
+.copy{
+    text-align: center;
+   margin-top: 10px;
+}
+.harsha{
+    background-color: midnightblue;
+    padding: 20px;
+    color: white;
+    width:fit-content;
+}
+.ema{
+    background-color: transparent;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.gan
+{
+   padding-right: 10px;
+
+}
+.copy
+{
+ font-size: small;
+ font-style: italic;
+}

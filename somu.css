@@ -1,0 +1,18 @@
+.Ee{
+
+   background-color: indianred;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+}
+
+.Grid{
+    background-color: black;
+   
+   
+}
+.Grid1{
+   background-color: blue;
+}
+.Grid2{
+   background-color: brown;
+}

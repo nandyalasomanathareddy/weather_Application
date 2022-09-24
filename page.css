@@ -1,0 +1,44 @@
+.sus{
+    display: inline-block;
+  grid-template-columns: auto auto auto;
+    background-color: darkturquoise;
+    width: fit-content;
+
+}
+.prem{
+    display: inline-block;
+  margin: 30px;
+  
+
+}
+.dv{
+    text-align: center;
+  color: aliceblue;
+   font-weight: bold;
+    font-style: italic;
+ 
+}
+.nav1{
+  background-color: aquamarine;
+  text-align: center;
+padding: 2px;
+border: 2px solid black;
+border-radius: 20px;
+
+}
+.senior{
+    background-color: crimson;
+    text-align: center;
+    margin-top: 30px;
+    padding: 2px;
+    border: 2px solid black;
+border-radius: 20px;
+}
+.arti{
+    background-color:papayawhip;
+    text-align: center;
+    margin-top: 30px;
+    padding: 2px;
+    border: 2px solid black;
+border-radius: 20px;
+}

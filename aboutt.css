@@ -1,0 +1,79 @@
+.suni{
+
+color: black;
+margin: 30px;
+width: fit-content;
+
+
+}
+
+
+
+
+.naven{
+  float: left;
+}
+.mahi{
+  border-top: 1px solid black;
+  margin-right: 450px;
+  padding-top: 10px;
+  font-style: italic;
+  font-weight: lighter;
+ 
+ 
+}
+
+ .mahi1{
+  border-top: 1px solid black;
+ margin-right: 30px;
+ margin-left: 290px;
+ padding-top: 10px;
+ font-style: italic;
+ font-weight: lighter;
+  text-align: end;
+}
+.hip{
+  
+text-align: left;
+
+padding-left: 10px;
+
+}
+.hip1{
+  text-align: center;
+  margin-right: 370px;
+}
+.hip2{
+  text-align: left;
+}
+.pera{
+  float: right;
+}
+.anil{
+  float: left;
+}
+ .mahi2{
+  border-top: 1px solid black;
+  margin-right: 450px;
+  padding-top: 10px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.naven1 {
+  float: right;
+  margin-top: 30px;
+  margin-right: 150px;
+
+}
+.naven2{
+float:left;
+margin-top:20px ;
+margin-left: 100px;
+}
+.naven3{
+  float: right;
+  margin-top: 30px;
+  margin-right: 140px;
+
+}

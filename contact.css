@@ -1,0 +1,97 @@
+.noor{
+    background-color: darkcyan;
+   
+    margin: 10px;
+    
+
+   
+}
+.inp{
+   margin-left: 40px;
+ box-sizing: content-box;
+  font-size: small;
+  text-align: center;
+  
+   
+}
+.human1{
+    margin-left: 30px;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+}
+
+ .for{
+ 
+  margin-top: 20px;
+  margin-right: 70px;
+  border-radius: 50px;
+ float: right;
+
+ border: 1px solid black;
+ 
+}
+.for{
+    background-color: rgb(95, 139, 0);
+
+ width: 250px;
+
+ 
+    padding: 20px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+   
+}
+.for label{
+    display: inline-block;
+  width: 100px;
+}
+.jilan{
+    float: left;
+    background-color: saddlebrown;
+    font-style: italic;
+    font-size: larger;
+    color: aquamarine;
+  margin: 30px;
+ width:fit-content;
+ 
+
+}
+.human{
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 20px;
+   margin-top: 30px;
+ color: whitesmoke;
+ 
+    
+}
+
+.pan{
+    border-top: 1px solid violet;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-bottom: 1px solid violet;
+    margin-right: 400px;
+    margin-left: 20px;
+    padding-bottom: 30px;
+    font-size: smaller;
+
+
+}
+.butn{
+    border-radius: 60px;
+    border-color: rgb(12, 12, 12);
+    background-color: darkblue;
+    color: azure;
+   margin-left: 20px;
+   margin-bottom: 30px;
+  
+   
+}
+.butn1{
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: blue;
+    color: aquamarine;
+}

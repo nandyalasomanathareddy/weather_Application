@@ -1,0 +1,23 @@
+.Input{
+     padding-top: 0px;
+     background-color: black;
+     color: azure;
+     padding-left: 30px;
+     width: auto;
+     text-align: center;
+   
+}
+h3{
+    padding-left:10px;
+    padding-top: 5px;
+}
+label{
+    display: inline-block;
+    width: 60px;
+}
+.Btn{
+    padding-left: 60px;
+    padding-top: 4px;
+  
+    
+}

@@ -1,0 +1,69 @@
+.ravi{
+    display: grid;
+    grid-gap: 2PX;
+    grid-template-columns: repeat(4,1fr);
+    grid-row: inherit;
+    margin: 50px;
+   
+   row-gap: 10px;
+   margin-top: 40px;
+   
+ 
+}
+.sai{
+    width: fit-content;
+   
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+.sera{
+  background-color: #0000ff;
+  text-align: center;
+
+  color: aliceblue;
+  height: 30px;
+  margin: 50px;
+  padding: 10px;
+  padding-bottom: 20px;
+ 
+
+
+
+  
+}
+.hero{
+    background-color: blue;
+  color: azure;
+ width: max-content;
+ 
+text-align: center;
+}
+.botn{
+    background-color: blue;
+  
+}
+
+
+.img1{
+    transition: width 2s, height 2s, background-image 2s;
+}
+.img1:hover{
+    background-image: url(https://images.pexels.com/photos/2387702/pexels-photo-2387702.jpeg?auto=compress&cs=tinysrgb&w=800);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+.img2{
+    transition: width 2s, height 2s,background-image 2s,;
+}
+.img2:hover{
+    width: 300px;
+    height: 300px;
+   background-image: url(https://images.pexels.com/photos/2387702/pexels-photo-2387702.jpeg?auto=compress&cs=tinysrgb&w=800);
+}

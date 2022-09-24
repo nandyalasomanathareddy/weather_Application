@@ -1,0 +1,44 @@
+form{
+    background-color:blue;
+    width:fit-content;
+   border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aqua;
+    
+   
+    
+}
+div{
+    background-color: black;
+    padding: 30px;
+   
+}
+h3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  
+   color: white;
+    
+}
+input{
+   
+    border-radius: 120px;
+ 
+  border: 1px solid transparent;
+   text-align: center;
+  
+   
+}
+.btn{
+    background-color: azure;
+  
+
+}
+.btn:hover{
+  color: aliceblue;
+  background-color: seagreen;
+
+}
+
