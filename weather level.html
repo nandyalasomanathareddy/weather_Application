@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+    <style>
+        body{ 
+            background-image: url(pexels-pixabay-36717.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 20px;
+        
+        }
+        section{
+            
+            text-align: center;
+            margin: 20px;
+        }
+        section #search{
+            background-color:transparent;
+            width: 300px;
+            height: 50px;
+            border-radius: 20px;
+            color: antiquewhite;
+        }
+        #btn{
+            background-color: transparent;
+            color: bisque;
+            border-radius: 20px;
+             border-style: ridge;
+             border-width: 3px;
+             border-color: gainsboro;
+        }
+        #btn:hover{
+            color: silver;
+        }
+        main{
+            background-color: transparent;
+            text-align: center;
+        
+            
+            margin: 20px;
+            color: aliceblue;
+            font-family: 'Courier New', Courier, monospace;
+            
+            
+            
+            
+        }
+        
+        
+        /* #search:hover{
+            color: darkgrey;
+        } */
+        /* h3{
+            text-align:center ;
+            color:azure;
+             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+             margin-right: 100px;
+        } */
+
+    </style>
+</head>
+<body>
+    <!-- <h3 >Weather-Condition</h3> -->
+    <nav>
+    <section>
+        
+    <input onkeypress="myfunction(event)" type="text" placeholder="#Check weather condition" id="search" >
+    <input value="submit" type="button" id="btn">
+    
+   
+    
+    </section>
+    <main>
+     <div id="wwe1"></div><br><br>
+     <div id="wwe2"></div><br>
+     <div id="wwe3"></div><br>
+     <div id="wwe4"></div><br>
+    </main>
+    </nav>
+    <script>
+     
+    
+        const a1 = document.getElementById("search")
+        const a2 = document.getElementById("btn")
+        const a3 = document.getElementById("wwe1")
+        const a4 = document.getElementById("wwe2")
+        const a5 = document.getElementById("wwe3")
+        const a6 = document.getElementById("wwe4")
+
+        function myfunction(value){
+            return(value-273)
+    
+            
+        }
+     
+        a2.addEventListener("click",()=>{
+            let apik = "9452084f5d79fca10532920b3e520dcf"
+
+            fetch('https://api.openweathermap.org/data/2.5/weather?q='+a1.value+'&appid='+apik)
+  .then(response => response.json())
+  .then(json => {
+    var city = json["name"]
+    a3.innerHTML =`weather of ${city}`
+
+    var temperature = json['main']['temp']
+    a4.innerHTML = `Temparature:${temperature}`
+
+    var information = json['weather'][0]['description']
+    a5.innerHTML = `sky condition:${information}`
+    var windspeed = json['wind']['speed']
+    a6.innerHTML = `wind speed${windspeed}km/h`
+
+  })
+  
+  
+  
+        })
+
+
+    </script>
+</body>
+</html>
