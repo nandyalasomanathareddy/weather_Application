@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<script>
+    //piramid------>
+    // let rows = 9;
+    // for(let i=1;i<=rows;i++){
+    //     for(let u=1;u<=rows-i;u++){
+    //         document.write("&nbsp")
+    //     }
+    //     for(let z=1;z<=i;z++){
+    //         document.write("*")
+    //     }
+    //     document.write("<br>")
+   // }
+    //pyramid^^^^^
+    
+    //factorial num--->
+    function helo(a,b,c,d,e){
+        console.log(a*b*c*d*e)
+    }
+    helo(5,4,3,2,1)
+    //fact^^^^
+  //max num
+     let array = [1,2,3,4,5,6]
+
+     let max = array[0];
+
+     for(let i=0;i<=array.length;i++){
+        if(array[i]>=max){
+            max = array[i]
+        }
+     }
+     console.log(max)
+     //max
+
+ 
+</script> 
+
+<style>
+    nav{
+        display: grid;
+        grid-template-columns: 400px auto;
+        grid-template-rows: 200px 100px auto;
+        grid-template-areas: initial;
+     background-color:black;
+     grid-gap: 20px;
+     
+
+    }
+    
+        
+    
+
+</style>
+
+<body>
+    <nav>
+    <div style="background-image: url(food-366875__340.webp);">
+
+    </div>
+    <div style="background-image: url(pexels-pixabay-36717.jpg);"></div>
+   <div style="background-image: url(pexels-aleksandar-pasaric-1619569.jpg);"></div>
+   <div style="background-image: url(cyber-attack-unrecognizable-hooded-hacker-using-tablet-comp-computer-digital-glitch-effect-83886192.jpg)"></div>
+   </nav>
+
+   <br>
+
+    <form onsubmit="src()">
+
+    <input type="text" placeholder="Enter name" id="wwe"> <br><br>
+    <input type="email" placeholder="Enter email" id="wwe1"><br><br>
+    <input type="password" placeholder="passowrd" id="wwe2"><br><br>
+    <input type="password" placeholder="confirm password" id="wwe3"><br><br>
+    <input type="submit" value="Register" id="wwe4">
+
+    </form>
+
+    <script>
+
+        
+   function src(){
+
+   
+        let a1 = document.getElementById("wwe").value
+        
+        
+        let a3 = document.getElementById("wwe2").value
+        let a4 = document.getElementById("wwe3").value
+        let a5 = document.getElementById("wwe4").value
+      
+  
+
+   
+        if( a1.length <=6){
+            alert(" enter more than 6 letters")
+        }
+        else if(a3 !=a4){
+           alert("password not match")
+
+        }
+        else{
+            alert("form sccesfully")
+        }
+    }
+     
+     src()
+
+
+
+    </script>
+    
+</body>
+</html>
